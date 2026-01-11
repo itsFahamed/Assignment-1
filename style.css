@@ -313,3 +313,133 @@ nav ul a:hover {
     width: 20px;
     height: 20px;
 }
+
+/* Call To Action (Final Card) Styles */
+.cta-section {
+    margin-bottom: 123px;
+    padding: 0 123px;
+}
+
+.cta-container {
+    padding: 82px 62px;
+    text-align: center;
+    border-radius: 12px;
+    width: 1360px;
+    margin: 0 auto;
+    background-color: #F7F6F2;
+}
+
+.cta-title {
+    font-size: 48px;
+    color: #0A1E3D;
+    font-weight: 700;
+    margin-bottom: 22px;
+}
+
+.cta-subtext {
+    font-size: 18px;
+    color: #627382;
+    margin-bottom: 42px;
+    line-height: 1.6;
+}
+
+.cta-button-large {
+    background-color: #30B868;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    padding: 18px 26px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 13px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.cta-button-large:hover {
+    background-color: #28A05A;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(48, 184, 104, 0.3);
+}
+
+.cta-button-large img {
+    width: 16px;
+    height: 16px;
+}
+
+.cta-note {
+    color: #627382;
+    font-size: 14px;
+    margin-top: 34px;
+}
+
+/* Footer Styles */
+.site-footer {
+    background-color: #0A1E3D;
+}
+
+.footer-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1360px;
+    margin: 0 auto;
+    padding: 62px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.brand-logo img {
+    width: 139px;
+    height: 60px;
+}
+
+.social-group {
+    text-align: right;
+}
+
+.social-title {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 17px;
+}
+
+.social-list {
+    display: flex;
+    gap: 17px;
+}
+
+.social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 37px;
+    height: 37px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.social-link:hover {
+    transform: translateY(-2px);
+    background-color: #a1afce;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.social-link img {
+    width: 18px;
+    height: 18px;
+}
+
+.legal {
+    text-align: center;
+    padding: 26px 0;
+}
+
+.legal p {
+    color: #FFFFFF;
+    font-size: 14px;
+    opacity: 0.8;
+}
